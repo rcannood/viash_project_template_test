@@ -1,6 +1,6 @@
 nextflow.enable.dsl=2
 
-targetDir = "${params.rootDir}/target/nextflow"
+targetDir = "../../target/nextflow"
 
 include { remove_comments } from "$targetDir/demo/remove_comments/main.nf"
 include { take_column }     from "$targetDir/demo/take_column/main.nf"
